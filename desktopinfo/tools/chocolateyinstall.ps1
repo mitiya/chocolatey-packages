@@ -1,13 +1,13 @@
 ﻿$toolsDir = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
 
-$url        = 'https://www.glenn.delahoy.com/downloads/desktopinfo/DesktopInfo200.zip' # download url, HTTPS preferred
+$url        = 'https://www.glenn.delahoy.com/downloads/desktopinfo/DesktopInfo210.zip' # download url, HTTPS preferred
 
 $packageZipArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   url           = $url
   validExitCodes= @(0, 3010, 1641)
-  Checksum = '7b7d0ba9f3e8fa9f01b4b9f69fbcdc3fd086bf61a9de5afb6dd36a57b2c3d851'
+  Checksum = 'fedd560dc83574ed1e2bf7f415a17e73d0fdb5c2287869116b960bd2b48f30ba'
   ChecksumType = 'SHA256'
 }
 
