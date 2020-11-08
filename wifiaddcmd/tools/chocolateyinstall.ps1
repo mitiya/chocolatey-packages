@@ -11,4 +11,4 @@ $packageZipArgs = @{
   validExitCodes= @(0, 3010, 1641)
 }
 
-
+Install-ChocolateyZipPackage @packageZipArgs
