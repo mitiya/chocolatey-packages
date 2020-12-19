@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>insd</id>
+    <version>2019.1.1.0</version>
+    <packageSourceUrl>https://github.com/mitiya/chocolatey-packages/tree/master/insd</packageSourceUrl>
+    <owners>mitiya</owners>
+    <title>insd (Install)</title>
+	<!-- <iconUrl></iconUrl> -->
+    <authors>www.gnivc.ru</authors>
+    <projectUrl>https://www.nalog.ru/rn77/program/5961249/</projectUrl>
+    <docsUrl>https://data.nalog.ru/files/decl2019/1.1.0/install.doc</docsUrl>
+    <mailingListUrl>http://gnivc.ru/contacts/</mailingListUrl>
+    <tags>insd2017 insd2018 insd2019 insd ndfl 3ndfl 3-ndfl nalog</tags>
+    <summary>insd is designed for the automated filling of a tax return for income tax of Russian individuals.</summary>
+    <description>insd is designed for the automated filling of a tax return for income tax of Russian individuals.</description>
+    <dependencies>
+      <dependency id="pdf417" />
+    </dependencies>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
