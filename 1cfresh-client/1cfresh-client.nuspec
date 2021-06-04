@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>1cfresh-client</id>
+    <version>8.3.17.2257</version>
+    <packageSourceUrl>https://github.com/mitiya/chocolatey-packages/tree/master/1cfresh-client</packageSourceUrl>
+    <owners>mitiya</owners>
+    <title>1cfresh-client (Install)</title>
+    <authors>https://1cfresh.com</authors>
+	<iconUrl>https://1cfresh.com/resources/images/content/favicon.png</iconUrl>
+    <projectUrl>https://1cfresh.com/articles/thin</projectUrl>
+    <docsUrl>https://1cfresh.com/articles/thin</docsUrl>
+    <mailingListUrl>https://1cfresh.com/articles/faq_info</mailingListUrl>
+    <tags>1c83 1c83tonc 1c 1cfresh</tags>
+    <summary>client for 1cfresh.com services.</summary>
+    <description>client for 1cfresh.com services.</description>
+  </metadata>
+  <files>
+    <!-- this section controls what actually gets packaged into the Chocolatey package -->
+    <file src="tools\**" target="tools" />
+    <!--Building from Linux? You may need this instead: <file src="tools/**" target="tools" />-->
+  </files>
+</package>
