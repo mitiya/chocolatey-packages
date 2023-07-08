@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>1cfresh-client-vers</id>
+    <version>2023.07.08</version>
+    <title>1cfresh-client-vers (Install)</title>
+    <authors>ООО &quot;1С-Софт&quot;</authors>
+    <owners>mitiya</owners>
+    <licenseUrl>https://1cfresh.com/articles/info_user_agreement</licenseUrl>
+    <projectUrl>https://1cfresh.com/articles/thin</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/mitiya/chocolatey-packages/1cfresh-client/favicon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>client for 1cfresh.com services.All versions presented on the site.</description>
+    <summary>client for 1cfresh.com services.All versions presented on the site.</summary>
+    <releaseNotes>There Is no release note to this app. Authors don&apos;t publish this information.</releaseNotes>
+    <tags>1c83 1c83tonc 1c 1cfresh</tags>
+    <packageSourceUrl>https://github.com/mitiya/chocolatey-packages/tree/master/1cfresh-client</packageSourceUrl>
+    <docsUrl>https://1cfresh.com/articles/thin</docsUrl>
+    <mailingListUrl>https://1cfresh.com/articles/faq_info</mailingListUrl>
+  </metadata>
+  <files>
+
+    <file src="tools\**" target="tools"/>
+
+  </files>
+</package>
