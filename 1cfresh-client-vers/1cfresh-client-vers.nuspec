@@ -14,7 +14,7 @@
     <summary>client for 1cfresh.com services.All versions presented on the site.</summary>
     <releaseNotes>There Is no release note to this app. Authors don&apos;t publish this information.</releaseNotes>
     <tags>1c83 1c83tonc 1c 1cfresh</tags>
-    <packageSourceUrl>https://github.com/mitiya/chocolatey-packages/tree/master/1cfresh-client</packageSourceUrl>
+    <packageSourceUrl>https://github.com/mitiya/chocolatey-packages/tree/master/1cfresh-client-vers</packageSourceUrl>
     <docsUrl>https://1cfresh.com/articles/thin</docsUrl>
     <mailingListUrl>https://1cfresh.com/articles/faq_info</mailingListUrl>
   </metadata>
