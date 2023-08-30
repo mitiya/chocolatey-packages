@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>openhardwaremonitor</id>
+    <version>0.9.6</version>
+    <title>Open Hardware Monitor</title>
+    <authors>Michael Möller</authors>
+    <owners>mitiya</owners>
+    <licenseUrl>https://openhardwaremonitor.org/license/</licenseUrl>
+    <projectUrl>https://openhardwaremonitor.org/</projectUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/mitiya/chocolatey-packages/openhardwaremonitor/favicon.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Open Hardware Monitor is a free open source software that monitors temperature sensors, fan speeds, voltages, load and clock speeds of a computer.</description>
+    <summary>software that monitors temperature sensors, fan speeds, voltages, load and clock speeds</summary>
+    <releaseNotes>Added AMD family 19h (Zen 3) CPU support.</releaseNotes>
+    <tags>Open Hardware Monitor ohw temperature sensors</tags>
+    <packageSourceUrl>https://github.com/mitiya/chocolatey-packages/tree/master/openhardwaremonitor</packageSourceUrl>
+    <docsUrl>https://openhardwaremonitor.org/documentation/</docsUrl>
+    <mailingListUrl>https://openhardwaremonitor.org/support/</mailingListUrl>
+  </metadata>
+  <files>
+
+    <file src="tools\**" target="tools"/>
+
+  </files>
+</package>
